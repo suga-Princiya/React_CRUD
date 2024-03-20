@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #007bff; /* Primary background color */
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  width: 50%;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* .form-wrapper form {
+    text-align: center;
+  } */
+
+.form-wrapper h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced4da; /* Bootstrap form control border color */
+  border-radius: 4px;
+}
+
+.btn-success {
+  background-color: #28a745; /* Bootstrap success button color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
